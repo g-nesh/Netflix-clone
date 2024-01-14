@@ -1,43 +1,88 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
 }
 
-.main{
-    background-image: url(assets/images/bg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: max(1200px, 100vw);
-    height: 80vh;
-    position: relative;
+body {
+  background-color: #000;
 }
 
-.main .box{
-    height: 80vh;
-    width: 100%;
-    opacity: 0.44;
-    position: absolute;
-    top: 0;
-    background-color: #000;
+.main {
+  background-image: url(assets/images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 70vh;
+  position: relative;
 }
 
-nav{
-    display: flex;  
-    align-items: center;
-    justify-content: space-between;
-    max-width: 80vw;
-    margin: auto;
-    height: 60px;
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  background-color: #000;
 }
 
-nav img{
-    color: red;
-    width: 120px;
-    position: relative;
-    z-index: 10;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 60vw;
+  margin: auto;
+  height: 60px;
 }
 
-nav button{
-    position: relative;
-    z-index: 10;
+nav img {
+  color: red;
+  width: 120px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-weight: 900;
+  font-size: 39px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sepration {
+  height: 10px;
+  background-color: gray;
 }
