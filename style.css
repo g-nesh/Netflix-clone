@@ -176,3 +176,26 @@ section.first > div{
     right: 74px;
     position: absolute;
 }
+
+.faq h2{
+  text-align: center;
+  font-size: 39px;
+}
+
+.faq{
+  background-color: #000;
+  color: #fff;
+  padding: 35px;
+}
+
+.quebox{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: grey;
+  padding: 15px;
+  max-width: 60vw;
+  margin: 16px auto;
+  cursor: pointer;
+}
+
