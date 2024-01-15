@@ -51,7 +51,7 @@ nav button {
 .hero {
   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
     sans-serif;
-  height: calc(100% - 62px);
+  height: calc(100% - 60px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +82,90 @@ nav button {
   text-align: center;
 }
 
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  border-radius: 4px;
+  color: #fff;
+  background-color: rgba(248, 243, 243, 0.021);
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: red;
+  color: #fff;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: #fff;
+}
+
+.get-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.main input {
+  padding: 7px 101px 8px 14px;
+  /* font-weight: 700; */
+  font-size: 12px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+}
+
 .sepration {
-  height: 10px;
-  background-color: gray;
+  height: 7px;
+  background-color: rgb(61, 61, 61);
+}
+
+.sec-img {
+  position: relative;
+}
+
+.sec-img img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+  /* top: 10px; */
+  /* bottom: 10px; */
+}
+
+.sec-img video {
+  width: 21.7vw;
+  top: 68px;
+  right: 52px;
+  position: absolute;
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first > div :nth-child(1) {
+  font-weight: bolder;
+  font-size: 39px;
+}
+
+.first > div :nth-child(2) {
+    font-size: 24px;
 }
